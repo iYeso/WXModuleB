@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WXModuleBViewController.h"
 
 @interface ViewController ()
 
@@ -21,6 +22,8 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     NSLog(@"ViewController");
+    WXModuleBViewController *moduleBVc = [[WXModuleBViewController alloc] init];
+    [self.navigationController pushViewController:moduleBVc animated:YES];
 }
 
 @end

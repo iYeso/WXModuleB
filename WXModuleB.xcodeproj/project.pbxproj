@@ -15,6 +15,9 @@
 		D7096EC622F2FE2C0011BAB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7096EC522F2FE2C0011BAB3 /* main.m */; };
 		D7096ED022F2FE2C0011BAB3 /* WXModuleBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7096ECF22F2FE2C0011BAB3 /* WXModuleBTests.m */; };
 		D7096EDB22F2FE2C0011BAB3 /* WXModuleBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7096EDA22F2FE2C0011BAB3 /* WXModuleBUITests.m */; };
+		D78560B322F42FE5006AFF20 /* WXModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78560B222F42FE5006AFF20 /* WXModuleBViewController.m */; };
+		D78560B622F43001006AFF20 /* WXModuleBView.m in Sources */ = {isa = PBXBuildFile; fileRef = D78560B522F43001006AFF20 /* WXModuleBView.m */; };
+		D78560B922F4300D006AFF20 /* WXModuleBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D78560B822F4300D006AFF20 /* WXModuleBModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		D7096ED622F2FE2C0011BAB3 /* WXModuleBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXModuleBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7096EDA22F2FE2C0011BAB3 /* WXModuleBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXModuleBUITests.m; sourceTree = "<group>"; };
 		D7096EDC22F2FE2C0011BAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D78560B122F42FE5006AFF20 /* WXModuleBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXModuleBViewController.h; sourceTree = "<group>"; };
+		D78560B222F42FE5006AFF20 /* WXModuleBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXModuleBViewController.m; sourceTree = "<group>"; };
+		D78560B422F43001006AFF20 /* WXModuleBView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXModuleBView.h; sourceTree = "<group>"; };
+		D78560B522F43001006AFF20 /* WXModuleBView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXModuleBView.m; sourceTree = "<group>"; };
+		D78560B722F4300D006AFF20 /* WXModuleBModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXModuleBModel.h; sourceTree = "<group>"; };
+		D78560B822F4300D006AFF20 /* WXModuleBModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXModuleBModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		D7096EB522F2FE2B0011BAB3 /* WXModuleB */ = {
 			isa = PBXGroup;
 			children = (
+				D78560AD22F42FC9006AFF20 /* Classes */,
 				D7096EB622F2FE2B0011BAB3 /* AppDelegate.h */,
 				D7096EB722F2FE2B0011BAB3 /* AppDelegate.m */,
 				D7096EB922F2FE2B0011BAB3 /* ViewController.h */,
@@ -130,6 +140,43 @@
 				D7096EDC22F2FE2C0011BAB3 /* Info.plist */,
 			);
 			path = WXModuleBUITests;
+			sourceTree = "<group>";
+		};
+		D78560AD22F42FC9006AFF20 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D78560AE22F42FC9006AFF20 /* Model */,
+				D78560AF22F42FC9006AFF20 /* View */,
+				D78560B022F42FC9006AFF20 /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D78560AE22F42FC9006AFF20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D78560B722F4300D006AFF20 /* WXModuleBModel.h */,
+				D78560B822F4300D006AFF20 /* WXModuleBModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D78560AF22F42FC9006AFF20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D78560B422F43001006AFF20 /* WXModuleBView.h */,
+				D78560B522F43001006AFF20 /* WXModuleBView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D78560B022F42FC9006AFF20 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D78560B122F42FE5006AFF20 /* WXModuleBViewController.h */,
+				D78560B222F42FE5006AFF20 /* WXModuleBViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +311,10 @@
 			files = (
 				D7096EBB22F2FE2B0011BAB3 /* ViewController.m in Sources */,
 				D7096EC622F2FE2C0011BAB3 /* main.m in Sources */,
+				D78560B322F42FE5006AFF20 /* WXModuleBViewController.m in Sources */,
+				D78560B922F4300D006AFF20 /* WXModuleBModel.m in Sources */,
 				D7096EB822F2FE2B0011BAB3 /* AppDelegate.m in Sources */,
+				D78560B622F43001006AFF20 /* WXModuleBView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
