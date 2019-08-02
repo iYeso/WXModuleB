@@ -7,6 +7,7 @@
 //
 
 #import "WXModuleBViewController.h"
+#import "WXModuleBDetaillViewController.h"
 
 @interface WXModuleBViewController ()
 
@@ -35,5 +36,8 @@
     self.navigationItem.title = NSStringFromClass(self.class);
 }
 
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    WXModuleBDetaillViewController *detailVc = [[WXModuleBDetaillViewController alloc] init];
+    [self.navigationController pushViewController:detailVc animated:YES];
+}
 @end

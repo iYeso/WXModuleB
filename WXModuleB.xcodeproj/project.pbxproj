@@ -18,6 +18,7 @@
 		D78560B322F42FE5006AFF20 /* WXModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78560B222F42FE5006AFF20 /* WXModuleBViewController.m */; };
 		D78560B622F43001006AFF20 /* WXModuleBView.m in Sources */ = {isa = PBXBuildFile; fileRef = D78560B522F43001006AFF20 /* WXModuleBView.m */; };
 		D78560B922F4300D006AFF20 /* WXModuleBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D78560B822F4300D006AFF20 /* WXModuleBModel.m */; };
+		D78560BC22F43430006AFF20 /* WXModuleBDetaillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78560BB22F43430006AFF20 /* WXModuleBDetaillViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		D78560B522F43001006AFF20 /* WXModuleBView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXModuleBView.m; sourceTree = "<group>"; };
 		D78560B722F4300D006AFF20 /* WXModuleBModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXModuleBModel.h; sourceTree = "<group>"; };
 		D78560B822F4300D006AFF20 /* WXModuleBModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXModuleBModel.m; sourceTree = "<group>"; };
+		D78560BA22F43430006AFF20 /* WXModuleBDetaillViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXModuleBDetaillViewController.h; sourceTree = "<group>"; };
+		D78560BB22F43430006AFF20 /* WXModuleBDetaillViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXModuleBDetaillViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +178,8 @@
 			children = (
 				D78560B122F42FE5006AFF20 /* WXModuleBViewController.h */,
 				D78560B222F42FE5006AFF20 /* WXModuleBViewController.m */,
+				D78560BA22F43430006AFF20 /* WXModuleBDetaillViewController.h */,
+				D78560BB22F43430006AFF20 /* WXModuleBDetaillViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -314,6 +319,7 @@
 				D78560B322F42FE5006AFF20 /* WXModuleBViewController.m in Sources */,
 				D78560B922F4300D006AFF20 /* WXModuleBModel.m in Sources */,
 				D7096EB822F2FE2B0011BAB3 /* AppDelegate.m in Sources */,
+				D78560BC22F43430006AFF20 /* WXModuleBDetaillViewController.m in Sources */,
 				D78560B622F43001006AFF20 /* WXModuleBView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
